@@ -1,0 +1,21 @@
+{
+  "name": "dracula-browserify-boilerplate",
+  "version": "1.0.0",
+  "description": "a graphdracula browserify boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify index.js > bundle.js",
+    "bundle:dev": "browserify --debug index.js > bundle.js",
+    "bundle:watch": "watchify index.js --debug --verbose -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphdracula": "^1.0.1-0",
+    "raphael": "^2.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
+  }
+}
