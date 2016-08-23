@@ -1,4 +1,8 @@
+# Graph Dracula
+
+An boilerplate with browserify.
+
 ```
 npm install
-npm bundle:watch
+npm run bundle:watch
 ```
