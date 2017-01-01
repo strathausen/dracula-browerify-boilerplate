@@ -1,6 +1,6 @@
 # Graph Dracula
 
-An boilerplate with browserify.
+A Dracula boilerplate for browserify.
 
 ```
 npm install
